@@ -13,7 +13,7 @@ Allows users to quickly view the status of each issue.
 
 ### Clone the repository:
 
-`git clone https://github.com/your_username/kanban-board.git`
+`git clone https://github.com/Kyrylo-Shkinov/github-issues-kanban.git`
 
 ### Install dependencies:
 
