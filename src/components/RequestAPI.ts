@@ -1,4 +1,4 @@
-import { Octokit } from "octokit";
+import { Octokit } from 'octokit';
 import { action } from 'mobx';
 import globalState, { doneState, progressState, todoState  } from './State';
 

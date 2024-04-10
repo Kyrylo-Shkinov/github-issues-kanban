@@ -11,9 +11,8 @@ Allows users to quickly view the status of each issue.
 
 ## Installation
 
-### Visit Pages Site
-
-`https://kyrylo-shkinov.github.io/github-issues-kanban/`
+Sorry, Pages site is not available yet.
+Octokit stubbornly opposes my build
 
 ### Clone the repository:
 
