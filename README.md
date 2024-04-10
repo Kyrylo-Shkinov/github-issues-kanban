@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+# GitHub repo issues viewer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project implements a Kanban board that fetches data from the GitHub API and displays all issues from a specified repository. The issues are categorized into three columns: Todo (open issues), In Progress (open issues with assigned assignee), and Done (closed issues).
 
-## Available Scripts
+Features
+Fetches data from GitHub API to display issues.
+Categorizes issues into Todo, In Progress, and Done.
+Provides a visual representation of the project's progress.
+Allows users to quickly view the status of each issue.
+##Installation
+Clone the repository: ###`git clone https://github.com/your_username/kanban-board.git`
 
-In the project directory, you can run:
+##Install dependencies:
+`cd kanban-board`
+`yarn install`
 
-### `yarn start`
+##Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+###Start the server:
+`yarn start`
+Visit http://localhost:3000 in your browser to view the Kanban board.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+###Technologies Used:
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React.js
+- TypeScript
+- GitHub API
+- React Bootstrap
+- MobX
+- React-testin-library
+- React-beautiful-dnd (Drag&Drop functionality)
