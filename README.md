@@ -11,6 +11,10 @@ Allows users to quickly view the status of each issue.
 
 ## Installation
 
+### Visit Pages Site
+
+`https://kyrylo-shkinov.github.io/github-issues-kanban/`
+
 ### Clone the repository:
 
 `git clone https://github.com/Kyrylo-Shkinov/github-issues-kanban.git`
