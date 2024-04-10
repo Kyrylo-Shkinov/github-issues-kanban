@@ -20,7 +20,6 @@ Octokit stubbornly opposes my build
 
 ### Install dependencies:
 
-`cd kanban-board`
 `yarn install`
 
 ## Usage
