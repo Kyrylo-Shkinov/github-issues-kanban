@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 import IssueCard from './IssueCard';
 import repository, { doneState, progressState, todoState } from './State';
 import { observer } from 'mobx-react';
+import Badge from 'react-bootstrap/Badge';
 
 interface KanbanColumnProps {
     title: string;
@@ -30,7 +31,10 @@ const KanbanColumn: React.FC<KanbanColumnProps> = observer(({ title }) => {
     
     return (
         <Card bg='light'>
-            <Card.Header>{repository.isLoaded ? issuesToRender.title : title}</Card.Header>
+            <Card.Header>
+                {repository.isLoaded ? issuesToRender.title : title}
+                {repository.isLoaded ? <Badge bg="primary" style={{margin: '0 0 0 15px'}}>{issuesToRender.issues.length}</Badge>: null}
+            </Card.Header>
             <Droppable droppableId={title}>
                 {(provided) => (
                     <Card.Body
