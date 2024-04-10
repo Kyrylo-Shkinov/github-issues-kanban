@@ -2,25 +2,33 @@
 
 This project implements a Kanban board that fetches data from the GitHub API and displays all issues from a specified repository. The issues are categorized into three columns: Todo (open issues), In Progress (open issues with assigned assignee), and Done (closed issues).
 
-Features
+## Features
+
 Fetches data from GitHub API to display issues.
 Categorizes issues into Todo, In Progress, and Done.
 Provides a visual representation of the project's progress.
 Allows users to quickly view the status of each issue.
-##Installation
-Clone the repository: ###`git clone https://github.com/your_username/kanban-board.git`
 
-##Install dependencies:
+## Installation
+
+### Clone the repository:
+
+`git clone https://github.com/your_username/kanban-board.git`
+
+### Install dependencies:
+
 `cd kanban-board`
 `yarn install`
 
-##Usage
+## Usage
 
-###Start the server:
+### Start the server:
+
 `yarn start`
-Visit http://localhost:3000 in your browser to view the Kanban board.
 
-###Technologies Used:
+### Visit http://localhost:3000 in your browser to view the Kanban board.
+
+## Technologies Used:
 
 - React.js
 - TypeScript
